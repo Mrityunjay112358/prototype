@@ -10,7 +10,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -21,7 +20,7 @@
 		<h1 class="header">	
 			Social Media	
 			<sup>
-				<img class="header img" src="http://127.0.0.1:5500/m2.png">
+				<img src="m2.png">
 			</sup>
 		</h1>
 		<div id ="output" style="text-align: left;margin-bottom: 70px;"> </div>
@@ -32,10 +31,11 @@
 	<div class="input_div_message_page">
 		<label>Send:</label>
 		<input id="send_input" placeholder="Type a Message" class="form-control" type="text">
-		<button class="btn btn-success">Send</button>
+		<button class="btn btn-success" onclick="Send()">Send</button>
 	</div>
 </center>
 
-
+<script src="kwitter_page.js"></script>
+<!-- Code injected by live-server -->
 </body>
 </html>
